@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-15T00:00:00.000Z",
+  "games": [
+    {
+      "id": "hd2",
+      "title": "Helldivers 2",
+      "icon": "Crosshair",
+      "color": "#facc15",
+      "executableNames": ["helldivers2"],
+      "wikis": [
+        {
+          "id": "wiki-gg",
+          "name": "Helldivers 2 Wiki (wiki.gg)",
+          "url": "https://helldivers.wiki.gg/wiki/Helldivers_2_Wiki",
+          "isVerified": true,
+          "description": "Community wiki with weapons, stratagems and lore"
+        },
+        {
+          "id": "fandom",
+          "name": "Helldivers 2 Fandom Wiki",
+          "url": "https://helldivers.fandom.com/wiki/Helldivers_2_Wiki",
+          "description": "Alternative community wiki"
+        }
+      ],
+      "communityTools": [
+        {
+          "id": "loadout",
+          "name": "Loadout Calculator",
+          "description": "Build and optimize your Helldiver loadout",
+          "type": "script",
+          "appUrl": "app:tools?game=hd2&tool=loadout",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "squad",
+          "name": "Squad Manager",
+          "description": "Coordinate your 4-player squad",
+          "type": "script",
+          "appUrl": "app:tools?game=hd2&tool=squad",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "war-tracker",
+          "name": "Helldivers.io War Tracker",
+          "description": "Live galactic war status, planets and campaigns",
+          "type": "url",
+          "url": "https://helldivers.io",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "loadout-planner",
+          "name": "Eravate Loadout Planner",
+          "description": "Web loadout planner with shareable builds",
+          "type": "url",
+          "url": "https://loadout.eravate.dev/",
+          "isVerified": true,
+          "compatStatus": "working"
+        }
+      ],
+      "performanceTools": [
+        {
+          "id": "pcgw",
+          "name": "Performance Guide (PCGamingWiki)",
+          "description": "Settings, fixes and launch options",
+          "type": "url",
+          "url": "https://www.pcgamingwiki.com/wiki/Helldivers_2",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "dlss-swapper",
+          "name": "DLSS Swapper",
+          "description": "Swap DLSS/dll variants to newer releases",
+          "type": "url",
+          "url": "https://github.com/beeradmoore/dlss-swapper",
+          "isOpenSource": true,
+          "compatStatus": "untested"
+        }
+      ],
+      "newsFeeds": [
+        {
+          "id": "steam-news",
+          "name": "Steam News",
+          "url": "https://steamcommunity.com/games/553850/rss/",
+          "type": "rss"
+        },
+        {
+          "id": "wiki-changes",
+          "name": "Wiki Recent Changes",
+          "url": "https://helldivers.wiki.gg/index.php?title=Special:RecentChanges&feed=atom",
+          "type": "atom"
+        }
+      ]
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "icon": "Box",
+      "color": "#4ade80",
+      "executableNames": ["javaw", "minecraft"],
+      "wikis": [
+        {
+          "id": "minecraft-wiki",
+          "name": "Minecraft Wiki",
+          "url": "https://minecraft.wiki/w/Minecraft_Wiki",
+          "isVerified": true,
+          "description": "Official community wiki for all editions"
+        },
+        {
+          "id": "fandom",
+          "name": "Minecraft Fandom Wiki",
+          "url": "https://minecraft.fandom.com/wiki/Minecraft_Wiki",
+          "description": "Alternative community wiki"
+        }
+      ],
+      "communityTools": [
+        {
+          "id": "seed",
+          "name": "Seed Explorer",
+          "description": "Seeds, slime chunks, nether coords & strongholds",
+          "type": "script",
+          "appUrl": "app:tools?game=minecraft&tool=seed",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "farm",
+          "name": "Mob Farm Planner",
+          "description": "Farm types, spawn rules and fall damage",
+          "type": "script",
+          "appUrl": "app:tools?game=minecraft&tool=farm",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "chunkbase",
+          "name": "Chunkbase Seed Map",
+          "description": "Interactive seed finder and biome maps",
+          "type": "url",
+          "url": "https://www.chunkbase.com/apps/seed-map",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "amidst",
+          "name": "Amidst",
+          "description": "Open-source map viewer for seeds",
+          "type": "exe",
+          "url": "https://github.com/toolbox4minecraft/amidst",
+          "defaultPath": "",
+          "args": [],
+          "isOpenSource": true,
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "minutor",
+          "name": "Minutor Map Viewer",
+          "description": "Legacy 2D map viewer (unmaintained)",
+          "type": "exe",
+          "url": "https://github.com/udoprog/Minutor",
+          "defaultPath": "",
+          "args": [],
+          "isOpenSource": true,
+          "compatStatus": "outdated"
+        }
+      ],
+      "performanceTools": [
+        {
+          "id": "sodium",
+          "name": "Sodium (Fabric)",
+          "description": "Open-source rendering performance mod",
+          "type": "url",
+          "url": "https://modrinth.com/mod/sodium",
+          "isOpenSource": true,
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "optifine",
+          "name": "OptiFine",
+          "description": "Classic performance & shader mod",
+          "type": "url",
+          "url": "https://optifine.net",
+          "compatStatus": "untested"
+        },
+        {
+          "id": "perf-guide",
+          "name": "Performance Guide (Wiki)",
+          "description": "Settings and JVM optimisation guide",
+          "type": "url",
+          "url": "https://minecraft.wiki/w/Tutorials/Performance",
+          "isVerified": true,
+          "compatStatus": "working"
+        }
+      ],
+      "newsFeeds": [
+        {
+          "id": "wiki-changes",
+          "name": "Wiki Recent Changes",
+          "url": "https://minecraft.wiki/w/Special:RecentChanges?feed=atom",
+          "type": "atom"
+        },
+        {
+          "id": "official",
+          "name": "Minecraft Community Content",
+          "url": "https://www.minecraft.net/en-us/feeds/community-content/rss",
+          "type": "rss"
+        }
+      ]
+    },
+    {
+      "id": "gps5",
+      "title": "Geo-Political Simulator 5",
+      "icon": "Globe",
+      "color": "#60a5fa",
+      "executableNames": ["geopoliticalsimulator5", "gps5"],
+      "wikis": [
+        {
+          "id": "official",
+          "name": "Official Website & Updates",
+          "url": "https://www.geo-political-simulator-5.com/maj.php?langue=en",
+          "isVerified": true,
+          "description": "Official changelog and news from Eversim"
+        },
+        {
+          "id": "wikipedia",
+          "name": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geo_Political_Simulator_5",
+          "description": "Overview and series history"
+        }
+      ],
+      "communityTools": [
+        {
+          "id": "country",
+          "name": "Country Database",
+          "description": "175 countries, profiles and CSV import",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=country",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "budget",
+          "name": "Budget Calculator",
+          "description": "Taxes, spending, deficit and debt",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=budget",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "election",
+          "name": "Election Guide",
+          "description": "Campaign checklists by role and scenario",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=election",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "trade",
+          "name": "Trade Analyzer",
+          "description": "Export partners and embargo planning",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=trade",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "conflict",
+          "name": "Conflict Simulator",
+          "description": "Military ranking and escalation risk",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=conflict",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "mods",
+          "name": "Add-ons & Mod Browser",
+          "description": "DLCs, mod contest winners, upgrades",
+          "type": "script",
+          "appUrl": "app:tools?game=gps5&tool=mods",
+          "isVerified": true,
+          "compatStatus": "working"
+        }
+      ],
+      "performanceTools": [
+        {
+          "id": "official-updates",
+          "name": "Official Updates & Fixes",
+          "description": "Changelog, patches and known issues",
+          "type": "url",
+          "url": "https://www.geo-political-simulator-5.com/maj.php?langue=en",
+          "isVerified": true,
+          "compatStatus": "working"
+        },
+        {
+          "id": "pcgw",
+          "name": "PCGamingWiki",
+          "description": "Technical fixes and configuration",
+          "type": "url",
+          "url": "https://www.pcgamingwiki.com/wiki/Geo_Political_Simulator_5",
+          "compatStatus": "untested"
+        }
+      ],
+      "newsFeeds": [
+        {
+          "id": "steam-news",
+          "name": "Steam News",
+          "url": "https://steamcommunity.com/games/3107770/rss/",
+          "type": "rss"
+        }
+      ]
+    }
+  ]
+}
