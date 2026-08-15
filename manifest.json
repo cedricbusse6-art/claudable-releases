@@ -50,15 +50,6 @@
           "url": "https://helldivers.io",
           "isVerified": true,
           "compatStatus": "working"
-        },
-        {
-          "id": "loadout-planner",
-          "name": "Eravate Loadout Planner",
-          "description": "Web loadout planner with shareable builds",
-          "type": "url",
-          "url": "https://loadout.eravate.dev/",
-          "isVerified": true,
-          "compatStatus": "working"
         }
       ],
       "performanceTools": [
@@ -86,13 +77,15 @@
           "id": "steam-news",
           "name": "Steam News",
           "url": "https://steamcommunity.com/games/553850/rss/",
-          "type": "rss"
+          "type": "rss",
+          "category": "news"
         },
         {
           "id": "wiki-changes",
           "name": "Wiki Recent Changes",
           "url": "https://helldivers.wiki.gg/index.php?title=Special:RecentChanges&feed=atom",
-          "type": "atom"
+          "type": "atom",
+          "category": "patches"
         }
       ]
     },
@@ -203,13 +196,15 @@
           "id": "wiki-changes",
           "name": "Wiki Recent Changes",
           "url": "https://minecraft.wiki/w/Special:RecentChanges?feed=atom",
-          "type": "atom"
+          "type": "atom",
+          "category": "patches"
         },
         {
           "id": "official",
           "name": "Minecraft Community Content",
           "url": "https://www.minecraft.net/en-us/feeds/community-content/rss",
-          "type": "rss"
+          "type": "rss",
+          "category": "news"
         }
       ]
     },
@@ -314,7 +309,8 @@
           "id": "steam-news",
           "name": "Steam News",
           "url": "https://steamcommunity.com/games/3107770/rss/",
-          "type": "rss"
+          "type": "rss",
+          "category": "news"
         }
       ]
     }
